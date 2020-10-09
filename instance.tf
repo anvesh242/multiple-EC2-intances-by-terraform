@@ -3,8 +3,8 @@
 #anvesh@Anvesh:~/opt/terraform$ cat instance.tf
 provider "aws" {
   region     = "us-east-2"
-  access_key = "AKIAJIYEIFI4IGPYD3BQ"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 #resource "aws_key_pair" "k8s-demo2" {
  # key_name   = "k8s-demo2"
